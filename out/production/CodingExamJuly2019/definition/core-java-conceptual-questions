@@ -1,56 +1,113 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. set of grammatical rules for instructing a computer or computing device to perform
 
 
 
 
 What jdk contains or composed of and define each components?
 A.
-
+Java Runtime Environment (JRE),
+an interpreter/loader (java),
+a compiler (javac), an archiver (jar),
+a documentation generator
 
 
 
 
 What is IDE?
 A.
-
+intergrated development environment
 
 
 What are the IDEs available in the market to support java?
-A.
+A.intellij
 
+eclipse
 
 
 Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
+what is class?a template for creating objects
+
+What is object? set of properties and methods.
+
+What is the entry point of an application? the main method.
+
 Why main is static?
-Which class is the superclass of all classes?
+allows main to be called without creating an object of the class in which the main method is defined.
+
+Which class is the superclass of all classes? objects
+
 What is difference between path and classpath variables?
+path is environment variable. to find executables. Classpath is an environment variable which is used by the Java compiler to find the path
+
 What is the difference between an Interface and Abstract class?
+Main difference is methods of a Java interface are implicitly abstract and cannot have implementations. A Java abstract class can have instance methods that implements a default behavior.
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
-What is Java Package and which package is imported by default?
+an abstract class is an incomplete class (incomplete in the sense it contains abstract methods without body and output
+
+what is Access Specifier? specify access level.
+private wthin class., default only within package., protected within the package.
+
+What is OOP ? Define each feature of java OOP. object oriented programing.
+They are an abstraction, encapsulation, inheritance, and polymorphism.
+abstraction using simple things to represent complexity.
+This is the practice of keeping fields within a class private
+ets programmers create new classes that share some of the attributes of existing classes
+method overloading. That’s when different meanings are implied by the code itself. The other form is method overriding. That’s when the different meanings are implied by the values of the supplied variables
+
+What is Java Package and which package is imported by default? java  defineed source file
+ava.lang package, no name package,  amespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer
 What is API? Name list of API that you have used so far.
+Java application programming interface (API) is a list of all classes that are part of the Java development kit
+
 Does java support multiple inheritance, explain why or why not?
+No, Java Does not support multiple inheritance because it creates confusion and complexity. To avoid ambiguity error java does not support multiple inheritance through class. But through the interface, multiple inheritance is possible in java.
+
 What is method overloading and when it happens?
+Method Overloading is a feature that allows a class to have more than one method
+having the same name, if their argument lists are different. It is similar to constructor
+overloading in Java, that allows a class to have more than one constructor having different argument lists.
+
 Explain exceptions in java and how to handle it.
+managed via five keywords: try, catch, throw, throws, and finally. ...
+Any exception that is thrown out of a method must be specified as such by a
+throws clause. Any code that absolutely must be executed after a try block completes is put in a finally block.
+
 What is static keyword in java? How it has been used in variables and methods ?
+tatic keyword in Java is used for memory management mainly. We can apply java static k
+eyword with variables, methods, blocks and nested class. The static keyword belongs to the class than an instance of the class.
 What is final and how it has been used variables and methods?
+inal is a non-access modifier applicable only to a variable, a method or a class
+When a variable is declared with final keyword, its value can't be modified, essentially, a constant.
+
 What is final, finally and finalize?
+final is can'tbe modified. finally is used in association with a try/catch block and guarantees
+that a section of code will be executed, even if an exception is thrown.
+The finally block will be executed after the try and catch blocks, but before control transfers back to its origin.
+The java.lang.Object.finalize() is called by the garbage collector on an object when garbage collection determines that there are no more references to the object
+
 What is a constructor ?
-Can we have multiple constructors in a class?
-If we don't have a constructor declared, what is called during the object creation?
-What is "this" keyword in java ?
-What is "super" keyword in java? How many possible way can you use?
+a block of code that initialize an object.
+
+What is "this" keyword in java ?reference variable in Java that refers to the current object
+
+What is "super" keyword in java? How many possible way can you use?is used to refer
+immediate parent class instance variable. We can use super keyword to access the data member
+or field of parent class. It is used if parent class and child class have same fields.
+
 What is JVM stand for ?
-Is JVM platform independent?
+java vertual machine.
+
+Is JVM platform independent?Different JVM is designed for different OS
+and byte code is able to run on different OS
+
 What version of java are you using?
+verion 12
+
 What is JAR stand for ?
+
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
 What is compile time and run time?

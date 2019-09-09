@@ -100,10 +100,14 @@ or field of parent class. It is used if parent class and child class have same f
 What is JVM stand for ?
 java vertual machine.
 
-Is JVM platform independent?Different JVM is designed for different OS and byte code is able to run on different OS
+Is JVM platform independent?Different JVM is designed for different OS
+and byte code is able to run on different OS
 
 What version of java are you using?
+verion 12
+
 What is JAR stand for ?
+
 What is the difference between JDK and JVM?
 What is the difference between JVM and JRE?
 What is compile time and run time?
