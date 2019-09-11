@@ -109,34 +109,87 @@ verion 12
 What is JAR stand for ?
 
 What is the difference between JDK and JVM?
+DK is for development purpose whereas JRE is for running the java programs
+
 What is the difference between JVM and JRE?
+JRE is an acronym for Java Runtime Environment.It is used to provide runtime
+environment.It is the implementation of JVM.It physically
+ exists.It contains set of libraries + other files that JVM uses at runtime
+
 What is compile time and run time?
+Compile-time is the instance where the code you entered
+is converted to executable while Run-time is the instance where the executable is running
+
 What is heap?
+an area of prereserved computer main storage memory that a program process can use
+
 How java manage it's memory?
+JVM loads the code, verifies the code, executes the code, manages memory
+(this includes allocating memory from the Operating System (OS), managing Java allocation including heap
+
 What is the difference between String, StringBuffer and StringBuilder?
+String class is an immutable class whereas StringBuffer and StringBuilder classes are mutabl
+
 What is Singleton class?
+there can only be one instance of the class.
+
+
 What is Serialization and Deserialization?
+a process of converting an object into a sequence of bytes which can be persisted to a d
+isk or database or can be sent through streams.
+The reverse process of creating object from sequence of bytes is deserialization
+
 when to use transient variable in java?
-Difference between while and do..while loop?
-What is Enum?
-What is Iterator?
+variables modifier used in serialization. At the time of serialization, if we don't want t
+o save value of a particular variable in a file, then we use transient keyword. When JVM comes across transient keyword,
+it ignores original value of the variable and save default value of that variable data type
+
+ifference between while and do..while loop?
+while loop executes atleast once.
+
+What is Enum? special data type that enables for a variable to be a set of predefined constants
+
+
+What is Iterator? an object that represents a stream of data
+
 Which one will take more memory, an int or Integer?
+int is a primitive data type while Integer is a Wrapper class. I think integer.
+
 Why is String Immutable in Java?
+string is Immutable in Java because String objects are cached in String.
+
 What is constructor chaining in Java?
+process of calling one constructor from another constructor with respect to current object
+
 The difference between Serial and Parallel Garbage Collector?
-What is JIT stands for?
+a serial collector is a default copying collector which uses only one GC thread for the GC operation,
+while a parallel collector uses multiple GC threads for the GC operation
+
+what is JIT stands for? Just in time (JIT) is an inventory management method whereby materials, goods, and labor are scheduled
+to arrive or be replenished exactly when needed in the production process
 Explain Java Heap space and Garbage collection?
+Java objects reside in an area called the heap. The heap is created when the JVM
+starts up and may increase or decrease in size while the application runs. When the heap becomes
+full, garbage is collected. During the garbage collection
+objects that are no longer used are cleared, thus making space for new objects.
 Can you guarantee the garbage collection process?
+You don't need to invoke garbage collection. the jvm does it automatically.
 What is the difference between stack and heap in Java?
-What is reflection in java and why is it useful?
-what is multithreading in java?
+the stack is use to store variables and function calls. heap is use to store objects.
+What is reflection in java and why is it useful? an API that is used to examine or modify
+the behaviour of method.invoke methods at runtime irrespective of the access modifier
+what is multithreading in java? process of executing multiple threads simultaneosly.
 What is the use of synchronization in Java?
-What is Framework?
-What are the testing Framework available in java?
-Difference between jUnit and testNG?
+What is Framework? large body of code in which you add you own code to solve a problem.
+What are the testing Framework available in java? JTest,The Grinder, TestNG, JUnit, JWalk, Mockito, Powermock
+Difference between jUnit and testNG? TestNG is inspired by JUnit and is designed to be better than JUnit,
+especially when testing integrated classes
 What are the dependencies for this project?
 what is dependency injection in java?
+is a technique whereby one object (or static method) supplies the dependencies
+of another object.
 What is static binding and dynamic binding?
+Static binding in Java occurs during compile time while dynamic binding occurs during runtime. private , final and static methods and variables use static binding and are bonded by compiler while virtual methods are bonded during runtime based upon runtime object.
 
 
 
